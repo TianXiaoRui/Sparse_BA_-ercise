@@ -21,3 +21,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 
 add_executable( solvePnP solvePnP.cpp)
 target_link_libraries( solvePnP ${OpenCV_LIBS} ${Sophus_LIBRARIES} )
+
+
