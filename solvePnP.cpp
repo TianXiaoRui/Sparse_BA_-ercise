@@ -4,6 +4,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <Eigen/Core>
 #include <Eigen/Dense>
+
 #include "sophus/se3.h"
 
 using namespace std;
@@ -55,7 +56,7 @@ void getdata (
     vector<KeyPoint> keypoints_2;
     vector< DMatch > matches;
     /**
-     *两帧之间的匹配，可以使用ＯＲＢ　ＳＩＦＴ等
+     *两帧之间的匹配，可以使用ORB　SIFT等
      */
     Mat descriptors_1, descriptors_2;
     // used in OpenCV3
