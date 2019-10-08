@@ -1,0 +1,3 @@
+/home/tr/Downloads/Sparse_BA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tr/Downloads/Sparse_BA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tr/Downloads/Sparse_BA/cmake-build-debug/CMakeFiles/solvePnP.dir
